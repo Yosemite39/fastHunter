@@ -8,7 +8,8 @@
     "packages/*"
   ],
   "scripts": {
-    "dev": "npm run dev --workspace @fasthunter/desktop",
+    "dev": "npm run dev:web",
+    "dev:desktop": "npm run dev --workspace @fasthunter/desktop",
     "dev:web": "npm run dev --workspace @fasthunter/web",
     "build": "npm run build --workspace @fasthunter/download-engine && npm run build --workspace @fasthunter/desktop && npm run build --workspace @fasthunter/browser-extension",
     "build:web": "npm run build --workspace @fasthunter/web",
