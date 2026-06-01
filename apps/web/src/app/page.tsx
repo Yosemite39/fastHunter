@@ -13,6 +13,7 @@ import {
   Sparkles,
 } from "lucide-react";
 import { MotionReveal } from "@/components/motion-reveal";
+import { PixelBat } from "@/components/pixel-bat";
 import { ProductPreview } from "@/components/product/product-preview";
 import { ScreenshotFrame } from "@/components/product/screenshot-frame";
 import { VideoFrame } from "@/components/product/video-frame";
@@ -25,6 +26,7 @@ export default function HomePage() {
   return (
     <>
       <section className="home-hero wrap">
+        <PixelBat />
         <div className="home-hero-copy">
           <SectionLabel index="00">Download Manager</SectionLabel>
           <h1><BrandMark /></h1>

@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@import "./pixel-bat.css";
 
 @font-face { font-family: "Pirata One"; src: url("/fonts/pirata-one.ttf") format("truetype"); font-display: swap; }
 @font-face { font-family: "Black Mustang"; src: url("/fonts/black-mustang.ttf") format("truetype"); font-display: swap; }
@@ -111,7 +112,7 @@ button { cursor: pointer; }
 .empty-state p { margin: 0; font-size: 14px; }
 
 /* homepage */
-.home-hero { display: grid; min-height: 790px; grid-template-columns: minmax(400px,.9fr) minmax(540px,1.1fr); align-items: center; gap: 56px; padding-block: 82px; }
+.home-hero { position: relative; display: grid; min-height: 790px; grid-template-columns: minmax(400px,.9fr) minmax(540px,1.1fr); align-items: center; gap: 56px; padding-block: 82px; }
 .home-hero h1 { margin: 32px 0 28px; font-size: clamp(92px, 12vw, 194px); }
 .hero-headline { margin: 0; color: var(--ink); font-size: clamp(44px,5vw,78px); font-weight: 900; letter-spacing: -.08em; line-height: .93; text-transform: uppercase; }
 .hero-headline span { color: #d85312; font-family: "JetBrains Mono", sans-serif; }
