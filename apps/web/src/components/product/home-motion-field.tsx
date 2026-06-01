@@ -16,8 +16,6 @@ export function HomeMotionField() {
       <motion.span className="scroll-token scroll-token-b" style={reduceMotion ? undefined : { y: driftB }}>[ 08 THREADS ]</motion.span>
       <motion.span className="scroll-token scroll-token-c" style={reduceMotion ? undefined : { y: driftC }}>:: FETCH_COMPLETE</motion.span>
       <motion.span className="scroll-token scroll-token-d" style={reduceMotion ? undefined : { y: driftD }}>ROOT / HUNTER</motion.span>
-      <span className="scroll-orb scroll-orb-a" />
-      <span className="scroll-orb scroll-orb-b" />
     </div>
   );
 }

@@ -9,7 +9,7 @@ export function MotionReveal({ children, className = "", delay = 0, distance = 3
   return (
     <motion.div
       className={className}
-      initial={reduceMotion ? false : { opacity: 0, y: distance, filter: "blur(12px)" }}
+      initial={reduceMotion ? false : { opacity: 0, y: distance, filter: "blur(6px)" }}
       whileInView={{ opacity: 1, y: 0, filter: "blur(0px)" }}
       viewport={{ once: true, amount: 0.12 }}
       transition={reduceMotion ? { duration: 0 } : { duration: 0.78, delay, ease: [0.22, 1, 0.36, 1] }}

@@ -23,13 +23,13 @@ export function SiteEntryIntro() {
         <motion.div
           className="site-entry-intro"
           initial={{ opacity: 1 }}
-          exit={{ opacity: 0, filter: "blur(18px)" }}
+          exit={{ opacity: 0 }}
           transition={{ duration: 0.72, ease: [0.22, 1, 0.36, 1] }}
           aria-hidden="true"
         >
           <motion.div
             className="entry-intro-mark"
-            initial={{ opacity: 0, scale: 0.82, filter: "blur(22px)" }}
+            initial={{ opacity: 0, scale: 0.9, filter: "blur(8px)" }}
             animate={{ opacity: 1, scale: 1, filter: "blur(0px)" }}
             transition={{ duration: 0.9, ease: [0.22, 1, 0.36, 1] }}
           >

@@ -14,6 +14,7 @@ import {
 } from "lucide-react";
 import { MotionReveal } from "@/components/motion-reveal";
 import { PixelBat } from "@/components/pixel-bat";
+import { PixelRocket } from "@/components/pixel-rocket";
 import { ProductPreview } from "@/components/product/product-preview";
 import { HeroSignalField } from "@/components/product/hero-signal-field";
 import { HomeMotionField } from "@/components/product/home-motion-field";
@@ -47,6 +48,7 @@ export default function HomePage() {
           </div>
         </div>
         <div className="home-preview hero-preview-boot">
+          <PixelRocket />
           <ProductPreview />
         </div>
       </section>
