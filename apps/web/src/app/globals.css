@@ -1,5 +1,4 @@
 @import "tailwindcss";
-@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Montserrat:wght@400;700&family=Inconsolata:wght@400;700&family=Oswald:wght@400;700&family=JetBrains+Mono:wght@400;700&family=PT+Sans:wght@400;700&display=swap');
 
 @font-face { font-family: "Pirata One"; src: url("/fonts/pirata-one.ttf") format("truetype"); font-display: swap; }
 @font-face { font-family: "Black Mustang"; src: url("/fonts/black-mustang.ttf") format("truetype"); font-display: swap; }
