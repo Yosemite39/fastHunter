@@ -41,6 +41,6 @@ export const FEATURES = [
 
 export const SCREENSHOTS = [
   { src: "/assets/screenshot-1-hero.png", title: "Dashboard", caption: "One clear surface for the current hunt." },
-  { src: "/assets/screenshot-2-capture.png", title: "Browser capture", caption: "Send links from the browser extension." },
+  { src: "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/Sequence%2001_2_1-plB3QjnW8wrIgkBpx3cB4sf8liFenD.mp4", title: "Browser capture", caption: "Send links from the browser extension.", isVideo: true },
   { src: "/assets/screenshot-3-speed.png", title: "Speed monitor", caption: "Watch each transfer without the clutter." },
 ];
