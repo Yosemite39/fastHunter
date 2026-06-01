@@ -13,10 +13,7 @@ export function VideoFrame({ src, title, caption }: { src: string; title: string
         loop 
         muted 
         playsInline
-        width={1280}
-        height={800}
         className="video-frame"
-        style={{ display: 'block', width: '100%', height: 'auto' }}
       />
       <figcaption><span>{title}</span>{caption}</figcaption>
     </figure>
