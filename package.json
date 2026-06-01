@@ -27,5 +27,9 @@
     "archiver": "^7.0.1",
     "png-to-ico": "^3.0.1",
     "sharp": "^0.34.2"
+  },
+  "dependencies": {
+    "lucide-react": "^1.17.0",
+    "next": "^16.2.6"
   }
 }

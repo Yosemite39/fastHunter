@@ -15,6 +15,7 @@ import {
 import { MotionReveal } from "@/components/motion-reveal";
 import { ProductPreview } from "@/components/product/product-preview";
 import { ScreenshotFrame } from "@/components/product/screenshot-frame";
+import { VideoFrame } from "@/components/product/video-frame";
 import { BrandMark, ButtonLink, SectionLabel, TerminalLine } from "@/components/ui";
 import { DOWNLOADS, FEATURES, PRODUCT, SCREENSHOTS } from "@/data/product";
 
@@ -62,7 +63,11 @@ export default function HomePage() {
         <div className="screenshots-stack">
           {SCREENSHOTS.map((screenshot, index) => (
             <MotionReveal key={screenshot.src} delay={index * 0.08}>
-              <ScreenshotFrame {...screenshot} priority={index === 0} />
+              {screenshot.isVideo ? (
+                <VideoFrame src={screenshot.src} title={screenshot.title} caption={screenshot.caption} />
+              ) : (
+                <ScreenshotFrame {...screenshot} priority={index === 0} />
+              )}
             </MotionReveal>
           ))}
         </div>
