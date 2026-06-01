@@ -142,15 +142,15 @@ button { cursor: pointer; }
 .home-hero-copy, .home-preview { min-width: 0; }
 .home-preview { position: relative; }
 .home-preview::before { position: absolute; inset: -50px -22px; z-index: -1; content: ""; border: 1px solid var(--line-soft); background: linear-gradient(135deg, rgba(255,255,255,.02), transparent); }
-.pixel-rocket { position: absolute; left: -78px; bottom: 56px; z-index: 6; display: grid; justify-items: center; gap: 8px; pointer-events: none; animation: pixel-rocket-drift 5.4s cubic-bezier(.45,.05,.55,.95) infinite; will-change: transform; }
-.pixel-rocket-label { color: rgba(255,90,31,.82); font-family: var(--mono); font-size: 7px; letter-spacing: .08em; white-space: nowrap; }
-.pixel-rocket-trace { width: 1px; height: 22px; border-left: 1px dashed rgba(255,90,31,.54); }
-.pixel-rocket-grid { display: grid; grid-template-columns: repeat(7, 4px); grid-auto-rows: 4px; gap: 1px; }
-.pixel-rocket-pixel { width: 4px; height: 4px; }
+.pixel-rocket { position: absolute; left: -52px; bottom: 48px; z-index: 7; display: grid; justify-items: center; gap: 8px; pointer-events: none; animation: pixel-rocket-drift 4.8s cubic-bezier(.45,.05,.55,.95) infinite; will-change: transform; }
+.pixel-rocket-label { color: rgba(255,90,31,.92); font-family: var(--mono); font-size: 8px; letter-spacing: .08em; white-space: nowrap; }
+.pixel-rocket-trace { width: 1px; height: 28px; border-left: 1px dashed rgba(255,90,31,.72); }
+.pixel-rocket-grid { display: grid; grid-template-columns: repeat(7, 6px); grid-auto-rows: 6px; gap: 1px; filter: drop-shadow(0 0 5px rgba(255,90,31,.28)); }
+.pixel-rocket-pixel { width: 6px; height: 6px; }
 .pixel-rocket-W { background: #f5f5f5; }
 .pixel-rocket-O { background: var(--accent); }
 .pixel-rocket-A { background: var(--accent); animation: pixel-rocket-flame .64s steps(2,end) infinite; }
-@keyframes pixel-rocket-drift { 0%, 100% { transform: translate3d(0,0,0); } 50% { transform: translate3d(0,-18px,0); } }
+@keyframes pixel-rocket-drift { 0%, 100% { transform: translate3d(0,0,0); } 50% { transform: translate3d(0,-24px,0); } }
 @keyframes pixel-rocket-flame { 50% { opacity: .34; transform: translateY(2px); } }
 .home-hero-copy > .section-label { animation: hero-boot-rise .48s both .06s; }
 .home-hero-copy h1 { transform-origin: left bottom; animation: hero-boot-brand .78s cubic-bezier(.22,1,.36,1) both .14s; }
